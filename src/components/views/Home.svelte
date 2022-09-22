@@ -1,17 +1,18 @@
 <script>
-
 </script>
 
-<style>
-    .home {
-        padding-top: 15%;
-        text-align: left;
-        padding-left: 85px;
-        color: white;
-    }
-</style>
-
 <div class="home">
-    <h1>home</h1>
+  <h1>Prueba Técnica PentCloud</h1>
+  <p>
+    En esta aplicación puedes visualizar artículos <br /> de forma rápida y concreta.
+  </p>
 </div>
 
+<style>
+  .home {
+    padding-top: 15%;
+    text-align: left;
+    padding-left: 85px;
+    color: white;
+  }
+</style>

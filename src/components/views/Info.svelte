@@ -12,9 +12,7 @@
 </style>
 
 <div class="info">
-    <h1>Prueba Técnica PentCloud</h1>
-    <p>En esta aplicación puedes visualizar artículos o <br> agregarlos
-        de manera fácil y rápida.
-    </p>
+    <h1>Información</h1>
+    <p>Proyecto FrontEnd consumiendo la API GraphQL</p>
 </div>
 

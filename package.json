@@ -19,6 +19,8 @@
   },
   "type": "module",
   "dependencies": {
+    "apollo-server-svelte-kit": "^3.9.0",
+    "each": "^1.2.2",
     "graphql": "^16.6.0",
     "graphql-request": "^5.0.0",
     "svelte-routing": "^1.6.0"

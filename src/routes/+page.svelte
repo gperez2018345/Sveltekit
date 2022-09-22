@@ -1,30 +1,13 @@
-<script context="module">
+<script>
     import Navbar from "../components/navbar/Navbar.svelte";
     import Home from "../components/views/Home.svelte";
     import Info from "../components/views/Info.svelte";
     import Articulo from "../components/views/Articulo.svelte";
     import Contacto from "../components/views/Contacto.svelte";
     import Servicios from "../components/views/Servicios.svelte";
+    import PorAutor from "../components/views/PorAutor.svelte";
+    import PorCategoria from "../components/views/PorCategoria.svelte";
     import { Router, Link, Route } from "svelte-routing";
-    import { request, gql } from 'graphql-request';
-
-    const query1 = gql`
-    query {
-  posts{
-    pages
-    rows{
-      author{
-        name
-      }
-      title
-    }
-
-  }
-}`;
-
-request("https://blog-backend-blush.vercel.app/graphql",query1).then((data1)=>
-        console.log(data1)
-    );
 
   </script>
   
@@ -47,6 +30,12 @@ request("https://blog-backend-blush.vercel.app/graphql",query1).then((data1)=>
       </Route>
       <Route path="/contact">
         <Contacto></Contacto>
+      </Route>
+      <Route path="/autor">
+        <PorAutor></PorAutor>
+      </Route>
+      <Route path="/categoria">
+        <PorCategoria></PorCategoria>
       </Route>
     </Router>
   </div>
